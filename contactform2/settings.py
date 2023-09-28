@@ -135,5 +135,3 @@ EMAIL_HOST_PASSWORD = 'alvtraosvwbmgdvr'
 
 
 
-
-

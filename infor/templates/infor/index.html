@@ -17,12 +17,12 @@
 
     <!-- Stylesheets
     ============================================= -->
-    <link href="http://giupviechn.vn/css/css-assets.css" rel="stylesheet">
-    <link href="http://giupviechn.vn/css/style.css" rel="stylesheet">
+    <link href="{% static 'css/css-assets.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
     <!-- Favicon
     ============================================= -->
-    <link rel="shortcut icon" href="http://giupviechn.vn/images/ico-01.png">
+    <link rel="shortcut icon" href="{% static 'images/ico-01.png' %}">
     <link rel="apple-touch-icon" href=https://moradhamdy.com/morad/cloin-demo/images/general-elements/favicon/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="https://moradhamdy.com/morad/cloin-demo/images/general-elements/favicon/apple-touch-icon-72x72.png'}">
     <link rel="apple-touch-icon" sizes="114x114" href="https://moradhamdy.com/morad/cloin-demo/images/general-elements/favicon/apple-touch-icon-114x114.png">
@@ -42,7 +42,7 @@
     ============================================= -->
     <div id="loading-progress">
         <a class="logo" href="#">
-            <img src="http://giupviechn.vn/images/logo.png" width="300px" data-logo-alt="http://giupviechn.vn/images/logo.png" alt="">
+            <img src="{% static 'images/logo.png' %}" width="300px" data-logo-alt="{% static 'images/logo.png' %}" alt="">
             <h3><span class="colored">Giupviechn.vn</span></h3>
             <span>HTML Template</span>
         </a><!-- .logo end -->
@@ -75,7 +75,7 @@
         
                                 <div class="hb-content">
                                     <a class="logo logo-header" href="index.html">
-                                        <img src="http://giupviechn.vn/images/logo-amban.png" data-logo-alt="https://moradhamdy.com/morad/cloin-demo/images/files/logo-header-alt.png" alt="">
+                                        <img src="{% static 'images/logo-amban.png' %}" data-logo-alt="https://moradhamdy.com/morad/cloin-demo/images/files/logo-header-alt.png" alt="">
                                         <h3><span class="colored">Giupviechn.vn</span></h3>
                                         <span>Landing Page</span>
                                     </a><!-- .logo end -->
@@ -96,7 +96,7 @@
         <section id="banner">
         
             <div class="banner-parallax" data-banner-height="650">
-                <img src="http://giupviechn.vn/images/d328253f26.png" alt="">
+                <img src="{% static 'images/d328253f26.png' %}" alt="">
                 <div class="overlay-colored color-bg-dark opacity-85"></div><!-- .overlay-colored end -->
                 <div class="slide-content">
                     <div class="container">
@@ -128,7 +128,7 @@
                                 <div class="banner-center-box">
                                     <div class="cta-subscribe cta-subscribe-1 box-form text-center">
                                         <div class="box-title">
-                                            <img src="http://giupviechn.vn/images/email.png" width="50px">
+                                            <img src="{% static 'images/email.png' %}" width="50px">
 
                                             <h3>Đăng ký tìm giúp việc</h3>
                                             <p>Dịch vụ giúp việc chất lượng, uy tín, được nhiều khách hàng tin dùng!</p>
@@ -206,7 +206,7 @@
         
                             <div class="box-info box-service-1 mb-md-40">
                                 <div class="box-icon">
-                                    <span class="icon icon-Bulb"><img src="http://giupviechn.vn/images/clock.png" width="50px"></span>
+                                    <span class="icon icon-Bulb"><img src="{% static 'images/clock.png' %}" width="50px"></span>
                                 
                                 </div><!-- .box-icon end -->
                                 <div class="box-content">
@@ -222,7 +222,7 @@
         
                             <div class="box-info box-service-1 mb-md-40">
                                 <div class="box-icon">
-                                    <span class="icon icon-Bulb"><img src="http://giupviechn.vn/images/businessman.png" width="50px"></span>
+                                    <span class="icon icon-Bulb"><img src="{% static 'images/businessman.png' %}" width="50px"></span>
                                 </div><!-- .box-icon end -->
                                 <div class="box-content">
                                     <h4><a href="javascript:;">Chuyên nghiệp</a></h4>
@@ -237,7 +237,7 @@
         
                             <div class="box-info box-service-1 mb-sm-40">
                                 <div class="box-icon">
-                                    <span class="icon icon-Bulb"><img src="http://giupviechn.vn/images/home.png" width="50px"></span>
+                                    <span class="icon icon-Bulb"><img src="{% static 'images/home.png' %}" width="50px"></span>
                                 </div><!-- .box-icon end -->
                                 <div class="box-content">
                                     <h4><a href="javascript:;">An toàn</a></h4>
@@ -252,7 +252,7 @@
         
                             <div class="box-info box-service-1">
                                 <div class="box-icon">
-                                   <span class="icon icon-Bulb"><img src="http://giupviechn.vn/images/customer-service.png" width="50px"></span>
+                                   <span class="icon icon-Bulb"><img src="{% static 'images/customer-service.png' %}" width="50px"></span>
                                 </div><!-- .box-icon end -->
                                 <div class="box-content">
                                     <h4><a href="javascript:;">Hỗ trợ</a></h4>
@@ -293,7 +293,7 @@
 
                                     <div class="box-info box-service-2 mb-20">
                                         <div class="box-icon">
-                                            <img src="http://giupviechn.vn/images/save-time.png">
+                                            <img src="{% static 'images/save-time.png' %}">
                                         </div><!-- .box-icon end -->
                                         <div class="box-content">
                                             <h5>GIÚP VIỆC THEO GIỜ</h5>
@@ -308,7 +308,7 @@
                                 
                                     <div class="box-info box-service-2 mb-20">
                                         <div class="box-icon">
-                                            <img src="http://giupviechn.vn/images/hospital-bed.png">
+                                            <img src="{% static 'images/hospital-bed.png' %}">
 
                                         </div><!-- .box-icon end -->
                                         <div class="box-content">
@@ -324,7 +324,7 @@
                                 
                                     <div class="box-info box-service-2">
                                         <div class="box-icon">
-                                            <img src="http://giupviechn.vn/images/tet.png">
+                                            <img src="{% static 'images/tet.png' %}">
                                         </div><!-- .box-icon end -->
                                         <div class="box-content">
                                             <h5>GIÚP VIỆC<BR /> TẾT NGUYÊN ĐÁN</h5>
@@ -339,7 +339,7 @@
                                 
                                     <div class="box-info box-service-2">
                                         <div class="box-icon">
-                                            <img src="http://giupviechn.vn/images/time.png">
+                                            <img src="{% static 'images/time.png' %}">
                                         </div><!-- .box-icon end -->
                                         <div class="box-content">
                                             <h5>GIÚP VIỆC LÂU DÀI</h5>
@@ -351,7 +351,7 @@
                                 
                                 </div><!-- .col-sm-6 end -->
                             </div><!-- .row end -->
-                            <a class="btn colorful large hover-dark rounded mt-40 move-top" href="tel:0972 624 450"><img src="http://giupviechn.vn/images/phone-icon.gif" width="50px"> LIÊN HỆ NGAY</a>
+                            <a class="btn colorful large hover-dark rounded mt-40 move-top" href="tel:0972 624 450"><img src="{% static 'images/phone-icon.gif' %}" width="50px"> LIÊN HỆ NGAY</a>
 
                         </div><!-- .col-md-6 end -->
                         <div class="col-md-6 mt-md-60">
@@ -369,7 +369,7 @@
         <!-- === Section Some Facts 1 =========== -->
         <div id="section-some-facts-1" class="section-parallax">
         
-            <img src="http://giupviechn.vn/images/fdde3ed3af.jpeg" alt="">
+            <img src="{% static 'images/fdde3ed3af.jpeg' %}" alt="">
             <div class="overlay-colored color-bg-dark opacity-85"></div><!-- .overlay-colored end -->
             <div class="section-content">
         
@@ -613,7 +613,7 @@
         <!-- === Section CTA 1 =========== -->
         <div id="section-cta-1" class="section-parallax center-vertical text-white">
         
-            <img src="http://giupviechn.vn/images/4140106eb8.jpeg" alt="">
+            <img src="{% static 'images/4140106eb8.jpeg' %}" alt="">
             <div class="overlay-colored color-bg-dark opacity-85"></div><!-- .overlay-colored end -->
             <div class="section-content">
         
@@ -675,9 +675,9 @@ info@giupviechn.vn</span>
                                         <span>Copyright © 2023</span> <a href="javascript:;" target="_blank">Giupviechn.vn</a> <span>All Rights Reserved.</span>
                                     </div><!-- .copyrights-message end -->
                                     <ul class="social-icons x4 grey-bg hover-colorful-bg animated rounded">
-                                        <li><a class="si-twitter" href="#"><img src="http://giupviechn.vn/images/zalo.png" width="50px" style="padding-top:5px"></a></li>
-                                        <li><a class="si-facebook" href="#"><img src="http://giupviechn.vn/images/facebook-app-symbol.png" width="20px" style="padding-top:5px"></a></li>
-                                        <li><a class="si-youtube" href="mailto:info@giupviechn.vn"><img src="http://giupviechn.vn/images/gmail.png" width="30px" style="padding-top:5px"></a></li>
+                                        <li><a class="si-twitter" href="#"><img src="{% static 'images/zalo.png' %}" width="50px" style="padding-top:5px"></a></li>
+                                        <li><a class="si-facebook" href="#"><img src="{% static 'images/facebook-app-symbol.png' %}" width="20px" style="padding-top:5px"></a></li>
+                                        <li><a class="si-youtube" href="mailto:info@giupviechn.vn"><img src="{% static 'images/gmail.png' %}" width="30px" style="padding-top:5px"></a></li>
                                     </ul><!-- .social-icons end -->
         
                                 </div><!-- .fb-row end -->
@@ -698,18 +698,18 @@ info@giupviechn.vn</span>
 
     <!-- External JavaScripts
     ============================================= -->
-    <script src="http://giupviechn.vn/js/jquery.js"></script>
-    <script src="http://giupviechn.vn/js/jRespond.min.js"></script>
-    <script src="http://giupviechn.vn/js/jquery.fitvids.js"></script>
-    <script src="http://giupviechn.vn/js/jquery.stellar.js"></script>
-    <script src="http://giupviechn.vn/js/slick.min.js"></script>
-    <script src="http://giupviechn.vn/js/jquery.magnific-popup.min.js"></script>
-    <script src="http://giupviechn.vn/js/jquery.waitforimages.min.js"></script>
-    <script src="http://giupviechn.vn/js/jquery.waypoints.min.js"></script>
-    <script src="{% static 'homepage/js/jquery.ajaxchimp.min.js' %}"></script>
-    <script src="http://giupviechn.vn/js/simple-scrollbar.min.js"></script>
-    <script src="{% static 'homepage/js/jquery.validate.min.js' %}"></script>
-    <script src="http://giupviechn.vn/js/functions.js"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/jRespond.min.js' %}"></script>
+    <script src="{% static 'js/jquery.fitvids.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.js' %}"></script>
+    <script src="{% static 'js/slick.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waitforimages.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+<!--    <script src="{% static 'homepage/js/jquery.ajaxchimp.min.js' %}"></script>-->
+    <script src="{% static 'js/simple-scrollbar.min.js' %}"></script>
+<!--    <script src="{% static 'js/jquery.validate.min.js' %}"></script>-->
+    <script src="{% static 'js/functions.js' %}"></script>
 
 </body>
 </html>
